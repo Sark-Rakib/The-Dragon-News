@@ -7,9 +7,24 @@ const Navbar = () => {
     <div className="flex justify-between items-center">
       <div></div>
       <div className="flex gap-5 text-accent">
-        <NavLink to="/">Home</NavLink>
-        <NavLink to="/about">About</NavLink>
-        <NavLink to="/career">Career</NavLink>
+        <NavLink
+          to="/"
+          className={({ isActive }) => (isActive ? "underline" : "")}
+        >
+          Home
+        </NavLink>
+        <NavLink
+          to="/about"
+          className={({ isActive }) => (isActive ? "underline" : "")}
+        >
+          About
+        </NavLink>
+        <NavLink
+          to="/career"
+          className={({ isActive }) => (isActive ? "underline" : "")}
+        >
+          Career
+        </NavLink>
       </div>
       <div className="flex items-center gap-5">
         <img src={user} alt="" />

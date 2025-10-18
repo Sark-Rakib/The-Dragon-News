@@ -3,7 +3,7 @@ import Marquee from "react-fast-marquee";
 
 const Lastest = () => {
   return (
-    <div className="flex items-center gap-3">
+    <div className="flex items-center bg-base-300">
       <p className="font-semibold bg-red-400 px-3 py-2 text-white">Lastest</p>
       <Marquee
         className="bg-gradient-to-b from-pink-300 via-orange-400 to-yellow-300  font-medium "

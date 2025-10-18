@@ -21,17 +21,20 @@ const Home = () => {
           <Navbar></Navbar>
         </section>
       </header>
-      <main className="w-11/12 mx-auto my-3 grid grid-cols-12">
+
+      <main className="flex flex-col md:flex-row w-11/12 mx-auto my-3 gap-5">
         {/* left section */}
-        <aside className="col-span-3">
+        <aside className="w-full md:w-3/12 mb-5 md:mb-0">
           <LeftAside></LeftAside>
         </aside>
+
         {/* main section */}
-        <section className="col-span-6 px-5">
+        <section className="w-full md:w-6/12 px-0 md:px-5 mb-5 md:mb-0">
           <Outlet></Outlet>
         </section>
+
         {/* right section */}
-        <aside className="col-span-3">
+        <aside className="w-full md:w-3/12">
           <RightAside></RightAside>
         </aside>
       </main>

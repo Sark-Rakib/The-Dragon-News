@@ -10,7 +10,7 @@ const NewsCard = ({ news }) => {
   );
 
   return (
-    <div className="card bg-base-100 shadow-xl border border-gray-200 relative overflow-hidden">
+    <div className="flex flex-col md:card bg-base-100 shadow-xl border border-gray-200 relative overflow-hidden">
       {/* Author Info + Top-right icons */}
       <div className="flex items-center bg-base-200 justify-between gap-3 p-4 ">
         <div className="flex items-center gap-3">
