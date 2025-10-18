@@ -5,11 +5,13 @@ import Lastest from "../LastestNews/Lastest";
 import Navbar from "../Navbar/Navbar";
 import LeftAside from "../HomeLayout'/LeftAside";
 import RightAside from "../HomeLayout'/RightAside";
+import Homes from "../../Pages/Homes";
 
 const Home = () => {
   return (
     <div>
       <header>
+        <Homes></Homes>
         <Header></Header>
         <section className="w-11/12 mx-auto my-3">
           <Lastest></Lastest>
