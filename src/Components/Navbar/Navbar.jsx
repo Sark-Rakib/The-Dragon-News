@@ -45,7 +45,7 @@ const Navbar = () => {
           Career
         </NavLink>
       </div>
-      <div className="flex items-center gap-5">
+      <div className="flex items-center gap-3">
         <img
           src={user && user.photoURL ? user.photoURL : userIcon}
           alt="User Profile"
