@@ -20,7 +20,7 @@ const Navbar = () => {
 
   return (
     <div className="flex justify-between items-center relative">
-      <h2 className="mt-17 md:mt-5 absolute text-yellow-300 bg-base-200 rounded p-1">
+      <h2 className="mt-30 md:mt-5 absolute text-yellow-300 bg-base-200 rounded p-1">
         {user && user.email}
       </h2>
       <div></div>

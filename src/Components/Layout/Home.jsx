@@ -19,12 +19,12 @@ const Home = () => {
           <Lastest></Lastest>
         </section>
 
-        <section className="w-11/12 my-10 md:w-11/12 mx-auto">
+        <section className="w-11/12 my-7 md:w-11/12 mx-auto">
           <Navbar></Navbar>
         </section>
       </header>
 
-      <main className="flex flex-col md:flex-row w-11/12 mx-auto my-3 gap-5">
+      <main className="flex flex-col mt-20 md:flex-row w-11/12 mx-auto my-3 gap-5">
         {/* left section */}
         <aside className="w-full md:w-3/12 mb-5 md:mb-0 md:sticky top-0 h-fit">
           <LeftAside></LeftAside>
