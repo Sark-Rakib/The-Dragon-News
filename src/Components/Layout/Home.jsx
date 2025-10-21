@@ -26,7 +26,7 @@ const Home = () => {
 
       <main className="flex flex-col md:flex-row w-11/12 mx-auto my-3 gap-5">
         {/* left section */}
-        <aside className="w-full md:w-3/12 mb-5 md:mb-0 sticky top-0 h-fit">
+        <aside className="w-full md:w-3/12 mb-5 md:mb-0 md:sticky top-0 h-fit">
           <LeftAside></LeftAside>
         </aside>
 
