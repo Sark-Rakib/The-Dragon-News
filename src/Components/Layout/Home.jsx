@@ -7,12 +7,14 @@ import LeftAside from "../HomeLayout'/LeftAside";
 import RightAside from "../HomeLayout'/RightAside";
 import Homes from "../../Pages/Homes";
 import Loading from "../Loading/Loading";
+import AosAnimation from "../AosAnimation";
 
 const Home = () => {
   const { state } = useNavigate();
   return (
     <div>
-      <header>
+      <AosAnimation></AosAnimation>
+      <header data-aos="fade-up">
         <Homes></Homes>
         <Header></Header>
         <section className="w-11/12 mx-auto my-3">
