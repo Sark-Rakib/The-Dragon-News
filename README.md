@@ -66,7 +66,7 @@ src/
 
 ```bash
 # 1. Clone the repo
-git clone <your-repo-url>
+git clone https://github.com/Sark-Rakib/The-Dragon-News.git
 cd The-Dragon-News
 
 # 2. Install dependencies
