@@ -26,7 +26,7 @@ const NewsCard = ({ news }) => {
           />
           <div>
             <h3 className="font-semibold text-sm">{author.name}</h3>
-            <p className="text-xs text-gray-500">{formattedDate}</p>
+            <p className="text-xs text-base-content/60">{formattedDate}</p>
           </div>
         </div>
 
@@ -34,7 +34,7 @@ const NewsCard = ({ news }) => {
         <div className="flex items-center gap-2">
           <button
             aria-label="Bookmark"
-            className="btn btn-ghost btn-sm p-2 rounded-full hover:bg-gray-100"
+            className="btn btn-ghost btn-sm p-2 rounded-full hover:bg-base-200"
             title="Bookmark"
           >
             <FiBookmark className="text-lg" />
@@ -42,7 +42,7 @@ const NewsCard = ({ news }) => {
 
           <button
             aria-label="Share"
-            className="btn btn-ghost btn-sm p-2 rounded-full hover:bg-gray-100"
+            className="btn btn-ghost btn-sm p-2 rounded-full hover:bg-base-200"
             title="Share"
           >
             <FiShare2 className="text-lg" />
@@ -67,7 +67,7 @@ const NewsCard = ({ news }) => {
 
       {/* Content */}
       <div className="card-body p-5">
-        <p className="text-gray-600 text-sm">
+        <p className="text-base-content/70 text-sm">
           {details.length > 180 ? `${details.slice(0, 180)}... ` : details}
         </p>
 
@@ -82,23 +82,23 @@ const NewsCard = ({ news }) => {
 
         {/* Footer Info */}
         <div className="flex items-center justify-between pt-4 border-t text-sm">
-          <div className="flex items-center gap-1 text-orange-500">
+          <div className="flex items-center gap-1 text-orange-400">
             {[...Array(5)].map((_, i) => (
               <FaStar
                 key={i}
                 className={
                   i < Math.round(rating.number)
                     ? "text-orange-400"
-                    : "text-gray-300"
+                    : "text-base-content/20"
                 }
               />
             ))}
-            <span className="ml-1 text-gray-700 font-medium">
+            <span className="ml-1 text-base-content font-medium">
               {rating.number}
             </span>
           </div>
 
-          <div className="flex items-center gap-1 text-gray-500">
+          <div className="flex items-center gap-1 text-base-content/60">
             <FaEye /> <span>{total_view}</span>
           </div>
         </div>

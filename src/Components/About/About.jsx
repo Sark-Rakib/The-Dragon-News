@@ -13,7 +13,7 @@ const About = () => {
       <br />
       <p>Each card presents essential details of a news item such as:</p>
 
-      <ul className="list-disc pl-6 space-y-1 text-gray-700">
+      <ul className="list-disc pl-6 space-y-1 text-base-content/80">
         <li>🧑‍💼 Author information (name, profile image, published date)</li>
         <li>🖼️ Thumbnail image of the news</li>
         <li>📰 Headline and short description</li>
@@ -36,7 +36,7 @@ const About = () => {
       <br />
       <h2 className="font-semibold text-accent">⚙️ Key Features</h2>
 
-      <ul className="list-disc pl-6 space-y-1 text-gray-700">
+      <ul className="list-disc pl-6 space-y-1 text-base-content/80">
         <li>Clean, card-based layout with DaisyUI components</li>
         <li>Interactive bookmark and share buttons</li>
         <li>Auto-formatted publish date</li>
@@ -49,7 +49,7 @@ const About = () => {
       <br />
       <h2 className="font-semibold text-accent">🧩 Tech Stack</h2>
 
-      <ul className="list-disc pl-6 space-y-1 text-gray-700">
+      <ul className="list-disc pl-6 space-y-1 text-base-content/80">
         <li>React (for component-based UI)</li>
         <li>Tailwind CSS + DaisyUI (for styling)</li>
         <li>React Icons (for icons like eye, star, bookmark, share)</li>

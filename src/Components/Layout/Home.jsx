@@ -12,7 +12,7 @@ import AosAnimation from "../AosAnimation";
 const Home = () => {
   const { state } = useNavigate();
   return (
-    <div>
+    <div className="bg-base-100 min-h-screen">
       <AosAnimation></AosAnimation>
       <header data-aos="fade-up">
         <Homes></Homes>
@@ -26,7 +26,7 @@ const Home = () => {
         </section>
       </header>
 
-      <main className="flex flex-col mt-20 md:flex-row w-11/12 mx-auto my-3 gap-5">
+      <main className="flex flex-col md:items-start mt-20 md:flex-row w-11/12 mx-auto my-3 gap-5">
         {/* left section */}
         <aside className="w-full md:w-3/12 mb-5 md:mb-0 md:sticky top-0 h-fit">
           <LeftAside></LeftAside>

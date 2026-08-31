@@ -4,12 +4,15 @@ import Marquee from "react-fast-marquee";
 const Lastest = () => {
   return (
     <div className="flex items-center bg-base-300">
-      <p className="font-semibold bg-red-400 px-3 py-2 text-white">Lastest</p>
+      <p className="font-semibold bg-red-600 px-3 py-2 text-white">
+        Latest.News
+      </p>
+
       <Marquee
-        className="bg-gradient-to-b from-pink-300 via-orange-400 to-yellow-300  font-medium "
+        className="bg-base-200 text-base-content font-medium py-2"
         pauseOnHover={true}
       >
-        <p className="font-bold">
+        <p className="font-semibold">
           📰 Heavy rainfall causes severe waterlogging in Chittagong city | 🚗
           Traffic disruptions continue in Dhaka due to heavy rain | 🧑‍💼
           Government announces new digital policy for local news outlets | 🌦️

@@ -15,6 +15,7 @@ import AuthLayout from "./Components/AuthLayout/AuthLayout.jsx";
 import AuthProvider from "./Components/AuthProvider/AuthProvider.jsx";
 import NewsDetails from "./Components/NewsDetails/NewsDetails.jsx";
 import PrivateRoute from "./Components/PrivateRoute/PrivateRoute.jsx";
+import ThemeProvider from "./Components/ThemeProvider/ThemeProvider.jsx";
 
 const router = createBrowserRouter([
   {
@@ -68,8 +69,10 @@ const router = createBrowserRouter([
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <AuthProvider>
-      <RouterProvider router={router}></RouterProvider>
-    </AuthProvider>
+    <ThemeProvider>
+      <AuthProvider>
+        <RouterProvider router={router}></RouterProvider>
+      </AuthProvider>
+    </ThemeProvider>
   </StrictMode>
 );
