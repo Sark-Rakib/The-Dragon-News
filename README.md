@@ -2,7 +2,7 @@
 
 A modern, responsive **React-based news web application** built with Vite, Tailwind CSS, DaisyUI, and Firebase Authentication. It features a clean card-based UI, smooth scroll animations, category-based news filtering, and a full light/dark mode.
 
-# Live URL https://dragonsnews.netlify.app
+Live URL https://dragonsnews.netlify.app
 
 ## 🚀 Features
 
